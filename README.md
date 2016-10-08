@@ -540,11 +540,13 @@ static NSRunLoop* _voiceWaveRunLoop;
 效果图：
 
 ![效果图1.gif](http://upload-images.jianshu.io/upload_images/2936611-c9b94f268e139d1d.gif?imageMogr2/auto-orient/strip)
+
 这是用AVAudioRecord获取麦克风的音频，获取PCM数据进行处理后，得到的效果图如下：
 
 ![效果图2.gif](http://upload-images.jianshu.io/upload_images/2936611-d56103aaf279a9ea.gif?imageMogr2/auto-orient/strip)
 
-参考链接
-音量分贝计算资料：http://www.cnblogs.com/karlchen/archive/2007/04/10/707478.html
+
+####参考资料链接
+音量分贝计算：http://www.cnblogs.com/karlchen/archive/2007/04/10/707478.html
 贝塞尔曲线：http://blog.csdn.net/likendsl/article/details/7852658
 附上[函数图像绘制工具](http://zh.numberempire.com/graphingcalculator.php)
