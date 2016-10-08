@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B826BF91DA88EE60050651F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826BF81DA88EE60050651F /* main.m */; };
+		5B826BFC1DA88EE60050651F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826BFB1DA88EE60050651F /* AppDelegate.m */; };
+		5B826BFF1DA88EE60050651F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826BFE1DA88EE60050651F /* ViewController.m */; };
+		5B826C021DA88EE60050651F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C001DA88EE60050651F /* Main.storyboard */; };
+		5B826C041DA88EE60050651F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C031DA88EE60050651F /* Assets.xcassets */; };
+		5B826C071DA88EE60050651F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C051DA88EE60050651F /* LaunchScreen.storyboard */; };
+		5B826C121DA88EE60050651F /* MCVoiceWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826C111DA88EE60050651F /* MCVoiceWaveTests.m */; };
+		5B826C1D1DA88EE60050651F /* MCVoiceWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826C1C1DA88EE60050651F /* MCVoiceWaveUITests.m */; };
+		5B826C2C1DA88FBF0050651F /* MCVoiceWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B826C2B1DA88FBF0050651F /* MCVoiceWaveView.m */; };
+		5B826C371DA894610050651F /* pic_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C341DA894610050651F /* pic_fill.png */; };
+		5B826C381DA894610050651F /* pic_firstLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C351DA894610050651F /* pic_firstLine.png */; };
+		5B826C391DA894610050651F /* pic_secondLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C361DA894610050651F /* pic_secondLine.png */; };
+		5B826C401DA89EE40050651F /* btn_voice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3A1DA89EE40050651F /* btn_voice1.png */; };
+		5B826C411DA89EE40050651F /* btn_voice1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3B1DA89EE40050651F /* btn_voice1@2x.png */; };
+		5B826C421DA89EE40050651F /* btn_voice1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3C1DA89EE40050651F /* btn_voice1@3x.png */; };
+		5B826C431DA89EE40050651F /* btn_voice2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3D1DA89EE40050651F /* btn_voice2.png */; };
+		5B826C441DA89EE40050651F /* btn_voice2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3E1DA89EE40050651F /* btn_voice2@2x.png */; };
+		5B826C451DA89EE40050651F /* btn_voice2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B826C3F1DA89EE40050651F /* btn_voice2@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B826C0E1DA88EE60050651F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B826BEC1DA88EE50050651F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B826BF31DA88EE50050651F;
+			remoteInfo = MCVoiceWave;
+		};
+		5B826C191DA88EE60050651F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B826BEC1DA88EE50050651F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B826BF31DA88EE50050651F;
+			remoteInfo = MCVoiceWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B826BF41DA88EE50050651F /* MCVoiceWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCVoiceWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B826BF81DA88EE60050651F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B826BFA1DA88EE60050651F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B826BFB1DA88EE60050651F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B826BFD1DA88EE60050651F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B826BFE1DA88EE60050651F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B826C011DA88EE60050651F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B826C031DA88EE60050651F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B826C061DA88EE60050651F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B826C081DA88EE60050651F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B826C0D1DA88EE60050651F /* MCVoiceWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCVoiceWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B826C111DA88EE60050651F /* MCVoiceWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCVoiceWaveTests.m; sourceTree = "<group>"; };
+		5B826C131DA88EE60050651F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B826C181DA88EE60050651F /* MCVoiceWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCVoiceWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B826C1C1DA88EE60050651F /* MCVoiceWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCVoiceWaveUITests.m; sourceTree = "<group>"; };
+		5B826C1E1DA88EE60050651F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B826C2A1DA88FBF0050651F /* MCVoiceWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCVoiceWaveView.h; sourceTree = "<group>"; };
+		5B826C2B1DA88FBF0050651F /* MCVoiceWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCVoiceWaveView.m; sourceTree = "<group>"; };
+		5B826C341DA894610050651F /* pic_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_fill.png; path = Resources/pic_fill.png; sourceTree = "<group>"; };
+		5B826C351DA894610050651F /* pic_firstLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_firstLine.png; path = Resources/pic_firstLine.png; sourceTree = "<group>"; };
+		5B826C361DA894610050651F /* pic_secondLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_secondLine.png; path = Resources/pic_secondLine.png; sourceTree = "<group>"; };
+		5B826C3A1DA89EE40050651F /* btn_voice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_voice1.png; path = Resources/btn_voice1.png; sourceTree = "<group>"; };
+		5B826C3B1DA89EE40050651F /* btn_voice1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_voice1@2x.png"; path = "Resources/btn_voice1@2x.png"; sourceTree = "<group>"; };
+		5B826C3C1DA89EE40050651F /* btn_voice1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_voice1@3x.png"; path = "Resources/btn_voice1@3x.png"; sourceTree = "<group>"; };
+		5B826C3D1DA89EE40050651F /* btn_voice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_voice2.png; path = Resources/btn_voice2.png; sourceTree = "<group>"; };
+		5B826C3E1DA89EE40050651F /* btn_voice2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_voice2@2x.png"; path = "Resources/btn_voice2@2x.png"; sourceTree = "<group>"; };
+		5B826C3F1DA89EE40050651F /* btn_voice2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_voice2@3x.png"; path = "Resources/btn_voice2@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B826BF11DA88EE50050651F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C0A1DA88EE60050651F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C151DA88EE60050651F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B826BEB1DA88EE50050651F = {
+			isa = PBXGroup;
+			children = (
+				5B826BF61DA88EE60050651F /* MCVoiceWave */,
+				5B826C101DA88EE60050651F /* MCVoiceWaveTests */,
+				5B826C1B1DA88EE60050651F /* MCVoiceWaveUITests */,
+				5B826BF51DA88EE50050651F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B826BF51DA88EE50050651F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B826BF41DA88EE50050651F /* MCVoiceWave.app */,
+				5B826C0D1DA88EE60050651F /* MCVoiceWaveTests.xctest */,
+				5B826C181DA88EE60050651F /* MCVoiceWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B826BF61DA88EE60050651F /* MCVoiceWave */ = {
+			isa = PBXGroup;
+			children = (
+				5B826BFA1DA88EE60050651F /* AppDelegate.h */,
+				5B826BFB1DA88EE60050651F /* AppDelegate.m */,
+				5B826C031DA88EE60050651F /* Assets.xcassets */,
+				5B826C081DA88EE60050651F /* Info.plist */,
+				5B826C051DA88EE60050651F /* LaunchScreen.storyboard */,
+				5B826C001DA88EE60050651F /* Main.storyboard */,
+				5B826C2A1DA88FBF0050651F /* MCVoiceWaveView.h */,
+				5B826C2B1DA88FBF0050651F /* MCVoiceWaveView.m */,
+				5B826C2D1DA893850050651F /* Resources */,
+				5B826BF71DA88EE60050651F /* Supporting Files */,
+				5B826BFD1DA88EE60050651F /* ViewController.h */,
+				5B826BFE1DA88EE60050651F /* ViewController.m */,
+			);
+			path = MCVoiceWave;
+			sourceTree = "<group>";
+		};
+		5B826BF71DA88EE60050651F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B826BF81DA88EE60050651F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B826C101DA88EE60050651F /* MCVoiceWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B826C111DA88EE60050651F /* MCVoiceWaveTests.m */,
+				5B826C131DA88EE60050651F /* Info.plist */,
+			);
+			path = MCVoiceWaveTests;
+			sourceTree = "<group>";
+		};
+		5B826C1B1DA88EE60050651F /* MCVoiceWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B826C1C1DA88EE60050651F /* MCVoiceWaveUITests.m */,
+				5B826C1E1DA88EE60050651F /* Info.plist */,
+			);
+			path = MCVoiceWaveUITests;
+			sourceTree = "<group>";
+		};
+		5B826C2D1DA893850050651F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B826C3A1DA89EE40050651F /* btn_voice1.png */,
+				5B826C3B1DA89EE40050651F /* btn_voice1@2x.png */,
+				5B826C3C1DA89EE40050651F /* btn_voice1@3x.png */,
+				5B826C3D1DA89EE40050651F /* btn_voice2.png */,
+				5B826C3E1DA89EE40050651F /* btn_voice2@2x.png */,
+				5B826C3F1DA89EE40050651F /* btn_voice2@3x.png */,
+				5B826C341DA894610050651F /* pic_fill.png */,
+				5B826C351DA894610050651F /* pic_firstLine.png */,
+				5B826C361DA894610050651F /* pic_secondLine.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B826BF31DA88EE50050651F /* MCVoiceWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B826C211DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWave" */;
+			buildPhases = (
+				5B826BF01DA88EE50050651F /* Sources */,
+				5B826BF11DA88EE50050651F /* Frameworks */,
+				5B826BF21DA88EE50050651F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCVoiceWave;
+			productName = MCVoiceWave;
+			productReference = 5B826BF41DA88EE50050651F /* MCVoiceWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B826C0C1DA88EE60050651F /* MCVoiceWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B826C241DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWaveTests" */;
+			buildPhases = (
+				5B826C091DA88EE60050651F /* Sources */,
+				5B826C0A1DA88EE60050651F /* Frameworks */,
+				5B826C0B1DA88EE60050651F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B826C0F1DA88EE60050651F /* PBXTargetDependency */,
+			);
+			name = MCVoiceWaveTests;
+			productName = MCVoiceWaveTests;
+			productReference = 5B826C0D1DA88EE60050651F /* MCVoiceWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B826C171DA88EE60050651F /* MCVoiceWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B826C271DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWaveUITests" */;
+			buildPhases = (
+				5B826C141DA88EE60050651F /* Sources */,
+				5B826C151DA88EE60050651F /* Frameworks */,
+				5B826C161DA88EE60050651F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B826C1A1DA88EE60050651F /* PBXTargetDependency */,
+			);
+			name = MCVoiceWaveUITests;
+			productName = MCVoiceWaveUITests;
+			productReference = 5B826C181DA88EE60050651F /* MCVoiceWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B826BEC1DA88EE50050651F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Martin Choo";
+				TargetAttributes = {
+					5B826BF31DA88EE50050651F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5B826C0C1DA88EE60050651F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B826BF31DA88EE50050651F;
+					};
+					5B826C171DA88EE60050651F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B826BF31DA88EE50050651F;
+					};
+				};
+			};
+			buildConfigurationList = 5B826BEF1DA88EE50050651F /* Build configuration list for PBXProject "MCVoiceWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B826BEB1DA88EE50050651F;
+			productRefGroup = 5B826BF51DA88EE50050651F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B826BF31DA88EE50050651F /* MCVoiceWave */,
+				5B826C0C1DA88EE60050651F /* MCVoiceWaveTests */,
+				5B826C171DA88EE60050651F /* MCVoiceWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B826BF21DA88EE50050651F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B826C411DA89EE40050651F /* btn_voice1@2x.png in Resources */,
+				5B826C441DA89EE40050651F /* btn_voice2@2x.png in Resources */,
+				5B826C451DA89EE40050651F /* btn_voice2@3x.png in Resources */,
+				5B826C391DA894610050651F /* pic_secondLine.png in Resources */,
+				5B826C071DA88EE60050651F /* LaunchScreen.storyboard in Resources */,
+				5B826C371DA894610050651F /* pic_fill.png in Resources */,
+				5B826C431DA89EE40050651F /* btn_voice2.png in Resources */,
+				5B826C381DA894610050651F /* pic_firstLine.png in Resources */,
+				5B826C041DA88EE60050651F /* Assets.xcassets in Resources */,
+				5B826C401DA89EE40050651F /* btn_voice1.png in Resources */,
+				5B826C421DA89EE40050651F /* btn_voice1@3x.png in Resources */,
+				5B826C021DA88EE60050651F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C0B1DA88EE60050651F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C161DA88EE60050651F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B826BF01DA88EE50050651F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B826C2C1DA88FBF0050651F /* MCVoiceWaveView.m in Sources */,
+				5B826BFF1DA88EE60050651F /* ViewController.m in Sources */,
+				5B826BFC1DA88EE60050651F /* AppDelegate.m in Sources */,
+				5B826BF91DA88EE60050651F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C091DA88EE60050651F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B826C121DA88EE60050651F /* MCVoiceWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B826C141DA88EE60050651F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B826C1D1DA88EE60050651F /* MCVoiceWaveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B826C0F1DA88EE60050651F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B826BF31DA88EE50050651F /* MCVoiceWave */;
+			targetProxy = 5B826C0E1DA88EE60050651F /* PBXContainerItemProxy */;
+		};
+		5B826C1A1DA88EE60050651F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B826BF31DA88EE50050651F /* MCVoiceWave */;
+			targetProxy = 5B826C191DA88EE60050651F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B826C001DA88EE60050651F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B826C011DA88EE60050651F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B826C051DA88EE60050651F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B826C061DA88EE60050651F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B826C1F1DA88EE60050651F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B826C201DA88EE60050651F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B826C221DA88EE60050651F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCVoiceWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B826C231DA88EE60050651F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCVoiceWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B826C251DA88EE60050651F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCVoiceWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCVoiceWave.app/MCVoiceWave";
+			};
+			name = Debug;
+		};
+		5B826C261DA88EE60050651F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCVoiceWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCVoiceWave.app/MCVoiceWave";
+			};
+			name = Release;
+		};
+		5B826C281DA88EE60050651F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCVoiceWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWaveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCVoiceWave;
+			};
+			name = Debug;
+		};
+		5B826C291DA88EE60050651F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCVoiceWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vh.anxin-net.com.Martin.MCVoiceWaveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCVoiceWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B826BEF1DA88EE50050651F /* Build configuration list for PBXProject "MCVoiceWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B826C1F1DA88EE60050651F /* Debug */,
+				5B826C201DA88EE60050651F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B826C211DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B826C221DA88EE60050651F /* Debug */,
+				5B826C231DA88EE60050651F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B826C241DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B826C251DA88EE60050651F /* Debug */,
+				5B826C261DA88EE60050651F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B826C271DA88EE60050651F /* Build configuration list for PBXNativeTarget "MCVoiceWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B826C281DA88EE60050651F /* Debug */,
+				5B826C291DA88EE60050651F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B826BEC1DA88EE50050651F /* Project object */;
+}
