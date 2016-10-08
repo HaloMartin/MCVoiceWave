@@ -538,8 +538,10 @@ static NSRunLoop* _voiceWaveRunLoop;
 ```
 以上部分代码涉及公司机密，不方便把全部源码贴出，我在***Github上贴出的是通过捕捉麦克风输入的音频的波形***，如果有改进建议或者疑问的话，可以联系我，感谢分享！
 效果图：
+
 ![效果图1.gif](http://upload-images.jianshu.io/upload_images/2936611-c9b94f268e139d1d.gif?imageMogr2/auto-orient/strip)
 这是用AVAudioRecord获取麦克风的音频，获取PCM数据进行处理后，得到的效果图如下：
+
 ![效果图2.gif](http://upload-images.jianshu.io/upload_images/2936611-d56103aaf279a9ea.gif?imageMogr2/auto-orient/strip)
 
 参考链接
